@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;/*je vais l'ajouter 
+    aprés pour que les elèves sentent la 
+    difference */
+    }
+    header
+    {
+    background-color: gray;
+    height: 120px;
+    }
+    #logo
+    {
+    width: 120px;
+    height: 120px;
+    }
+    h1
+    {
+    color: yellow;
+    text-shadow: 10px 10px 10px black;
+    display:inline-block;
+    transition: transform 4s;
+    }
+    h1:hover
+    {
+    transform:translate(500px,0px) 
+    scale(1.5);
+    }
+    nav{
+    font-size: large;
+    padding: 20px; 
+    }
+    li
+    {
+    display: inline;
+    padding: 50px ; 
+    }
+    nav li a
+    {
+    color: black;
+    }
+    nav li a:visited
+    {
+    color: gray;
+    }
+    nav li a:active
+    {
+    color: yellow;
+    }
+    .centrer
+    {
+    text-align: center;
+    }
+    .gras
+    {
+    font-weight: bold;
+    }
+    main{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    }
+    section
+    {
+    width: 60%;
+    height: 98%;
+    }
+    iframe
+    {
+    width: 100%;
+    height: 100%;
+    }
+    footer
+    {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    }
+    footer div{
+    margin-top: 80px;
+    }
+    p{
+    padding: 20px;
+    }
+    #salle
+    {
+    width: 100%; 
+    }
+    #acceuil
+    {
+    display: flex;
+    justify-content: space-between;
+    }
+    article
+    {
+    background-color: yellow;
+    width: 48%;
+    height: 490px;
+    }
+    Summary
+    {
+    font-size: 2em;
+    }
+    table,td,th
+    {
+    border-width: 2px;
+    border-style:dashed;
+    border-color: black;
+    border-collapse: collapse;
+    }
+    table{
+    width: 100%;
+    height: 450px;
+    table-layout:fixed;
+    }
+    .largeur{
+    display: inline-block;
+    width: 200px;
+    }
+    fieldset
+    {
+    padding: 20px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    }
+    legend
+    {
+    border-style: double;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    }
+    .bt
+    {
+    padding: 0 30px;
+    border-width: medium;
+    border-radius: 10px;
+    background-color: 
+    yellow;
+    }
